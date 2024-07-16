@@ -31,4 +31,6 @@ export const winstonLogger = (elasticSearchNode: string, name: string, level: st
         defaultMeta: { service: name },
         transports: [new winston.transports.Console(options.console), esTransport]
     })
+
+    return logger;
 }
