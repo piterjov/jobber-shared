@@ -26,3 +26,4 @@ vendor/
 # Ignore sensitive or environment-specific files
 config.ini
 secrets.env
+secrets.md

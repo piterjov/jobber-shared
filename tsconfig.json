@@ -19,6 +19,6 @@
     "pretty": true,
     "resolveJsonModule": true
   },
-  "include": ["src"],
+  "include": ["src", "src/interfaces/auth.interface.ts", "src/interfaces/buyer.interface.ts", "src/interfaces/chat.interface.ts", "src/cloudinary-upload.ts", "src/interfaces/email.interface.ts", "src/interfaces/gig.interface.ts", "src/interfaces/order.intesrc/interfaces/review.interface.tsintesrc/interfaces/search.interface.tsintesrc/interfaces/seller.interface.tsinterface.ts"],
   "exclude": ["node_modules"]
 }
