@@ -1,5 +1,3 @@
-import { isEmail } from './helpers';
-
 export {
     IAuthPayload,
     IAuthDocument,
@@ -16,7 +14,7 @@ export {
     IAuthResponse,
     IAuthUser,
 } from './interfaces/auth.interface';
-export { IBuyerDocument, IReduxBuyer } from './interfaces/buyer.interface';
+export { IBuyerDocument, IReduxBuyer } from './buyer.interface';
 export {
     IConversationDocument,
     IMessageDocument,
@@ -83,6 +81,13 @@ export {
     FileTooLargeError,
     ServerError,
     ErrnoException
-} from './error-handler'
-
-export { isEmail } from './helpers'
+} from './error-handler';
+export { verifyGatewayRequest } from './gateway-middleware';
+export { winstonLogger } from './logger';
+export {
+    firstLetterUppercase,
+    lowerCase,
+    toUpperCase,
+    isEmail,
+    isDataURL
+} from './helpers';
